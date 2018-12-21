@@ -12,9 +12,9 @@ public class Jasonfinal2 {
     Raven raven = new Raven(0, 0);
 
     
-    
 
-//while(true){ } }
+//while(true){
+//} }
 //
 //
 //} 
@@ -62,6 +62,7 @@ public class Jasonfinal2 {
     public void moveleft() {
         this.x -= 1;
     }
+}
 }
 
 class Harpy {
@@ -147,6 +148,5 @@ class Goat {
     public void moveleft() {
         this.x -= 1;
     }
-}
 }
 
