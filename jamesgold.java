@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Jasonfinal2 {
 
-    public static void main(String[] args) { // TODO code application logic here Raven Huginn = new Raven(0,0); Raven Muninn = new Raven(9,9); ArrayList<Raven> ravenz = new ArrayList(); ravenz.add(Huginn); ravenz.add(Muninn); char [][] ray = new char[10][10]; for(Raven r: ravenz){ ray [r.getY()][r.getX()]= r.getSymbol(); } for(int i = 0;i<10;i++){ for(int j = 0;j<10;j++){ ray[i][j] = '.'; System.out.print(ray[0][j]); System.out.print(" "); } System.out.println(ray[i][0]);
+    public static void main(String[] args) { Raven Huginn = new Raven(0,0); Raven Muninn = new Raven(9,9); ArrayList<Raven> ravenz = new ArrayList(); ravenz.add(Huginn); ravenz.add(Muninn); char [][] ray = new char[10][10]; for(Raven r: ravenz){ ray [r.getY()][r.getX()]= r.getSymbol(); } for(int i = 0;i<10;i++){ for(int j = 0;j<10;j++){ ray[i][j] = '.'; System.out.print(ray[0][j]); System.out.print(" "); } System.out.println(ray[i][0]);
     }
     
     //DECLERATION OFF THE CLASSES
